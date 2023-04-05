@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+      type="application/javascript"
+    ></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1>web3 приложение для Камень-ножницы-бумага</h1>
+      <button onclick="play(0)">Камень</button>
+      <button onclick="play(1)">Ножницы</button>
+      <button onclick="play(2)">Бумага</button>
+      <button onclick="getGamePlayed()">Получить результаты</button>
+      <p>Ваши результаты: <span id="result"></span></p>
+    </div>
+  </body>
+</html>
